@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+
+  &__list {
+    display: flex;
+    align-items: center;
+
+    margin-left: 433px;
+  }
+  &__link {
+    color: #000000;
+  }
+  &__logo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    line-height: calc(39 / 18);
+    color: #231f20;
+    margin-left: 60px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+  &__item {
+    font-size: 18px;
+    line-height: calc(22 / 18);
+  }
+  &__item:not(:first-child) {
+    margin-left: 31px;
+  }
+
+  &__btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    margin-left: 375px;
+    text-transform: uppercase;
+    color: #f7941e;
+    padding: 13px 20px;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+}
