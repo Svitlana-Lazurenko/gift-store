@@ -1,0 +1,43 @@
+.gift {
+  display: flex;
+  padding: 0;
+  background-color: #f1f1f2;
+
+  &__img {
+    display: block;
+    margin-right: 0;
+    padding: 0;
+  }
+  &__about {
+    width: 720px;
+    padding-top: 154px;
+    padding-left: 162px;
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 69px;
+    width: 433px;
+    margin-bottom: 36px;
+  }
+  &__button {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background-color: #f7941e;
+    border-color: #f7941e;
+    border-radius: 5px;
+    transition: 800ms linear;
+
+    &:hover {
+      color: #f7941e;
+      background-color: transparent;
+    }
+  }
+}
