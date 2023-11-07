@@ -6,4 +6,5 @@ Landing page for gift store "Freebie". Team project.
 - DmitriyK2512
 - Andrii55
 
+## Status
 Project is in progress.
